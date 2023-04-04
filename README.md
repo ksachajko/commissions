@@ -2,9 +2,13 @@
 Calculates commission fees for transactions
 
 ## Running ##
+The application itself is located in the `app` folder.
+Docker was added for author's convenience.
+
+### To run outside docker: ###
 Install dependencies
 
-Run `php src/app.php`
+Run `app.php` script located `app/src/` folder
 
 Source list of transactions may be found in `src/resources/input.txt`
 
